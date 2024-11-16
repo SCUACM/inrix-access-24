@@ -95,7 +95,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://na-api.beta.inrix.com/Traffic/Inrix.ashx?action=GetTrafficCamerasInBox&locale=en-US&corner1=47.636521|-122.321498&corner2=47.648940|-122.280300&token=TOKEN",
+					"raw": "https://na-api.beta.inrix.com/Traffic/Inrix.ashx?action=GetTrafficCamerasInBox&locale=en-US&corner1=47.636521|-122.321498&corner2=47.648940|-122.280300&token=YOUR TOKEN HERE",
 					"protocol": "https",
 					"host": [
 						"na-api",
@@ -126,7 +126,7 @@
 						},
 						{
 							"key": "token",
-							"value": "TOKEN"
+							"value": "YOUR TOKEN HERE"
 						}
 					]
 				}
@@ -139,7 +139,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://na-api.beta.inrix.com/Traffic/Inrix.ashx?Action=GetTrafficCameraImage&Token=TOKEN&CameraID=976&DesiredWidth=640&DesiredHeight=480",
+					"raw": "https://na-api.beta.inrix.com/Traffic/Inrix.ashx?Action=GetTrafficCameraImage&Token=YOUR TOKEN HERE&CameraID=976&DesiredWidth=640&DesiredHeight=480",
 					"protocol": "https",
 					"host": [
 						"na-api",
@@ -158,7 +158,7 @@
 						},
 						{
 							"key": "Token",
-							"value": "TOKEN"
+							"value": "YOUR TOKEN HERE"
 						},
 						{
 							"key": "CameraID",
